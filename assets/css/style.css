@@ -1,0 +1,241 @@
+/* Import Fonts Special Elite and Exo via Google
+Einbindung via font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800&family=Special+Elite&display=swap");
+/* Reset all */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Special Elite", cursive;
+  font-size: 21px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Fonts*/
+h2,
+h3,
+h4 {
+  font-weight: 800;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 3.8rem;
+
+  line-height: 4rem;
+}
+.smallh2 {
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+h3 {
+  font-size: 2.2rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+p {
+  margin-top: 21px;
+  line-height: 1.4rem;
+}
+small {
+  margin-top: -14px;
+}
+
+.button {
+    font-size: 1rem;
+    border: 1px solid #000;
+    padding: 4px;
+    margin-top: 14px;
+    display: inline-block;
+
+}
+/* Header */
+header {
+  height: 90%;
+}
+
+/* Navigation */
+nav {
+  text-align: right;
+  padding: 1.8%;
+}
+nav ul li {
+  display: inline;
+  padding-left: 26px;
+  font-size: 1rem;
+}
+
+/* Hero*/
+#hero {
+  background: url("../bg/bg.jpeg") no-repeat center left;
+  height: 100%;
+}
+#hero div {
+  padding-top: 15%;
+}
+
+#hero h1 {
+  display: none;
+}
+
+/* Aside Section*/
+
+aside {
+  background: url("../bg/beans_icon.png") no-repeat top left;
+}
+aside section {
+  width: 40%;
+  padding: 7%;
+}
+
+/* Bridges */
+.bridge {
+  min-height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bridge1 {
+  background-image: url("../bridges/bridge_1.jpg");
+}
+#bridge2 {
+  background-image: url("../bridges/bridge_2.jpg");
+}
+#bridge3 {
+  background-image: url("../bridges/bridge_3.jpg");
+}
+#bridge4 {
+  background-image: url("../bridges/bridge_4.jpeg");
+}
+/* Menu Section */
+
+#menu {
+  width: 100vw;
+  text-align: center;
+  background: url("../bg/cake_icon.png") no-repeat top left;
+  padding: 4% 0;
+}
+
+.brews {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 7px 14px 14px 14px;
+}
+.brews:nth-of-type(2) {
+  margin-bottom: 1.5%;
+}
+#menu *:not(h3) {
+  margin-top: 1%;
+}
+h3:first-of-type {
+  padding-top: 21px;
+}
+
+/* Story Section */
+#story,
+#cakes {
+  padding: 6% 21%;
+}
+.fifty {
+  width: 50%;
+}
+.fifty .imgright {
+  width: 35%;
+}
+#full {
+  position: relative;
+  width: 100%;
+
+}
+
+/* Catering */
+
+#catering {
+    padding: 6% 15%;
+  }
+
+.fullfload {
+    display:flex; 
+    
+  }
+  .flex {
+	display: flex;
+	flex-direction: column;
+	align-items:space-around;
+}
+.flexdown {
+	
+    justify-content: flex-end;
+}
+
+.flexup {
+	
+    justify-content: flex-start;
+}
+
+
+.imgright {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.imgleft {
+  left: 0;
+  bottom: 100%;
+  position: absolute;
+}
+.fullimg {
+  width: 90%;
+}
+.fullerimg {
+    width: 95%;
+  }
+.down {
+  top: 315px;
+  position: absolute;
+}
+.pright {
+  right: 0;
+  bottom 0;
+  position: absolute;
+}
+
+.floatright {
+  float: right;
+}
+.floatleft {
+  float: left;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color:#fff;
+    padding: 2% 0;
+}
+#bigger {
+    font-family: 'Exo', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.social {
+    width:30px;
+}
+#today {
+    width:100px;
+}
