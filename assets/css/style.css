@@ -69,7 +69,11 @@ header {
 /* Navigation */
 nav {
   text-align: right;
-  padding: 1.8%;
+  padding: 2%;
+  position: fixed;
+  background-color: #fff;
+  width: 96%;
+  z-index: 600;
 }
 nav ul li {
   display: inline;
