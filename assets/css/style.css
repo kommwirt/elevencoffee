@@ -74,6 +74,7 @@ nav {
   background-color: #fff;
   width: 96%;
   z-index: 600;
+  top: 0;
 }
 nav ul li {
   display: inline;
