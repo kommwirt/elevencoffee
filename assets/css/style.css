@@ -130,6 +130,7 @@ aside section {
   width: 100vw;
   text-align: center;
   background: url("../bg/cake_icon.png") no-repeat top left;
+  background-size: contain;
   padding: 4% 0;
 }
 
@@ -170,12 +171,18 @@ h3:first-of-type {
 
 #catering {
     padding: 6% 15%;
+    background: url("../img/pie_icon.png") no-repeat top left;
+        background-size:20%;
   }
 
 .fullfload {
     display:flex; 
     
+    
   }
+.fullfloat * {
+    background-color: transparent;
+}
   .flex {
 	display: flex;
 	flex-direction: column;
@@ -217,7 +224,8 @@ h3:first-of-type {
   bottom 0;
   position: absolute;
 }
-
+#cakes {background: url("../img/muffin_icon.png") no-repeat top right;
+background-size: 20%;}
 
 /* Footer */
 
